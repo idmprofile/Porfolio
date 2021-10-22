@@ -95,13 +95,19 @@ main {
 	font-size: 1.6rem;
 }
 
+.introduction h3 {
+	margin: .5em 0;
+}
+
 .introduction h3 a {
 	text-decoration: none;
 	color: var(--primary-color);
+	font-weight: bold;
 	border: 2px solid #eee;
 }
 .introduction h3 a:hover {
 	color: black;
+	border: 3px solid var(--primary-color);
 }
 
 /* PROJECT SECTION */
