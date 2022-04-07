@@ -112,16 +112,27 @@ main {
 }
 
 /* PROJECT SECTION */
+.project {
+	margin: 3rem 0;
+}
+.project-title img {
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 5px 10px 0px #c9c9c9;
+}
+.project-wrapper {
+	padding: .2rem;
+}
 .project-wrapper h3 {
 	font-size: 1.2rem;
 	border-bottom: 3px solid var(--primary-color);
 	display: inline-block;
-	width: 40%;
 }
 .project-wrapper p {
 	text-indent: .6rem;
 	font-size: .9rem;
 	padding: .3rem;
+	margin: 1rem;
 }
 
 .project-wrapper span {
@@ -201,3 +212,12 @@ main {
 
 
 
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .project-wrapper h3 {
+		font-size: 1.2rem;
+		border-bottom: 3px solid var(--primary-color);
+		display: inline-block;
+		width: 40%;
+	}
+}
